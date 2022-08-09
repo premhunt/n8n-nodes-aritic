@@ -16,6 +16,10 @@
     "workflow",
     "n8n-community-node-package"
   ],
+  "author": {
+    "name": "Aritic",
+    "email": "developer@aritic.com"
+  }
   "license": "MIT",
   "homepage": "https://aritic.com",
   "repository": {
