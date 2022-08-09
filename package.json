@@ -1,8 +1,6 @@
 {
   "name": "@dataaegis/n8n-nodes-aritic",
   "version": "0.1.0",
-  "author.name": "Aritic <developer@aritic.com>",
-  "author": "Aritic <developer@aritic.com>",
   "description": "Install it to the n8n root folder. This is the node_modules folder on the same level of n8n and n8n-core. This differs when you used the -g flag on n8n initial installation. From there do: ``` npm install @dataaegis/n8n-node-aritic ``` # Fresh install n8n",
   "keywords": [
     "n8n",
