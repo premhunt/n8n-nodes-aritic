@@ -1,19 +1,28 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-aritic",
   "version": "0.1.0",
   "description": "",
   "keywords": [
+    "n8n",
+    "nodemation",
+    "dnc",
+    "aritic",
+    "helpdesk",
+    "customer service",
+    "nodes",
+    "custom",
+    "workflow",
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://aritic.com",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Aritic",
+    "email": "developer@aritic.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/premhunt/n8n-nodes-aritic.git"
   },
   "main": "index.js",
   "scripts": {
@@ -30,12 +39,12 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/AriticApi.credentials.js",
+      "dist/credentials/AriticOAuth2Api.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/Aritic/Aritic.node.js",
+      "dist/nodes/Aritic/AriticTrigger.node.js"
     ]
   },
   "devDependencies": {
