@@ -1,7 +1,8 @@
 {
   "name": "n8n-nodes-aritic",
   "version": "0.1.0",
-  "description": "",
+  "author": "Aritic- DataAegis",
+  "description": "Install it to the n8n root folder. This is the node_modules folder on the same level of n8n and n8n-core. This differs when you used the -g flag on n8n initial installation. From there do: ``` npm install @dataaegis/n8n-node-aritic ``` # Fresh install n8n",
   "keywords": [
     "n8n",
     "nodemation",
@@ -16,13 +17,10 @@
   ],
   "license": "MIT",
   "homepage": "https://aritic.com",
-  "author": {
-    "name": "Aritic",
-    "email": "developer@aritic.com"
-  },
+  "author": "Aritic <developer@aritic.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/premhunt/n8n-nodes-aritic.git"
+    "url": "git+https://github.com/premhunt/n8n-nodes-aritic.git"
   },
   "main": "index.js",
   "scripts": {
@@ -58,5 +56,9 @@
     "prettier": "^2.7.1",
     "tslint": "^6.1.2",
     "typescript": "~4.6.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/premhunt/n8n-nodes-aritic/issues"
+  },
+  "dependencies": {}
 }
